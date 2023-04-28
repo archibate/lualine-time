@@ -8,7 +8,7 @@ I always forgot to attend course in collegue while happy programming at dormitor
 
 ## Screenshot
 
-![lualine-ctime](screenshot.png)
+![lualine-time](screenshot.png)
 
 ## Use
 
@@ -32,13 +32,13 @@ require'lualine'.setup {
 ### [vim-plug](https://github.com/junegunn/vim-plug)
 
 ```lua
-Plug 'archibate/lualine-ctime'
+Plug 'archibate/lualine-time'
 ```
 
 ### [packer.nvim](https://github.com/wbthomason/packer.nvim)
 
 ```lua
-use 'archibate/lualine-ctime'
+use 'archibate/lualine-time'
 ```
 
 ## Example configuration
@@ -46,7 +46,7 @@ use 'archibate/lualine-ctime'
 ```lua
 use {
     'nvim-lualine/lualine.nvim',
-    'archibate/lualine-ctime',
+    'archibate/lualine-time',
     requires = { 'kyazdani42/nvim-web-devicons', opt = true },
     config = function()
     require'lualine'.setup {
