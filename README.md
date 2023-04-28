@@ -1,4 +1,4 @@
-# lualine-ctime
+# lualine-time
 
 Time and date display extension for [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)
 
